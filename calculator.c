@@ -1,1 +1,1 @@
-../../Thirdparty/Submodules/nuklear/demo/calculator.c
+../../../Thirdparties/Submodules/nuklear/demo/calculator.c

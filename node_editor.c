@@ -1,1 +1,1 @@
-../../Thirdparty/Submodules/nuklear/demo/node_editor.c
+../../../Thirdparties/Submodules/nuklear/demo/node_editor.c

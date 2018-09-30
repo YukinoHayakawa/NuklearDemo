@@ -1,1 +1,1 @@
-../../Thirdparty/Submodules/nuklear/demo/overview.c
+../../../Thirdparties/Submodules/nuklear/demo/overview.c

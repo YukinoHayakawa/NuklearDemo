@@ -1,1 +1,1 @@
-../../Thirdparty/Submodules/nuklear/demo/style.c
+../../../Thirdparties/Submodules/nuklear/demo/style.c
