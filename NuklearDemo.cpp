@@ -18,6 +18,5 @@ usagi::NuklearDemo::NuklearDemo(std::shared_ptr<Runtime> runtime)
     );
     setupRenderTargets(false);
 
-    mStateManager->pushState(mStateManager->addChild<NuklearDemoState>(
-        "NuklearDemo", this));
+    mStateManager->pushState<NuklearDemoState>("NuklearDemo", this);
 }
