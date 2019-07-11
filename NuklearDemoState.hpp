@@ -4,7 +4,7 @@
 
 namespace usagi
 {
-class NuklearSubsystem;
+class NuklearSystem;
 
 class NuklearDemoState : public GraphicalGameState
 {

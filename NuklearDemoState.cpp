@@ -4,7 +4,7 @@
 #include <Usagi/Runtime/Runtime.hpp>
 #include <Usagi/Runtime/Input/InputManager.hpp>
 
-#include <Usagi/Extension/Nuklear/NuklearSubsystem.hpp>
+#include <Usagi/Extension/Nuklear/NuklearSystem.hpp>
 #include "NuklearDemoComponent.hpp"
 
 usagi::NuklearDemoState::NuklearDemoState(
@@ -14,7 +14,7 @@ usagi::NuklearDemoState::NuklearDemoState(
     : GraphicalGameState(parent, std::move(name), game)
 {
     const auto input_manager = mGame->runtime()->inputManager();
-    const auto nk = addSubsystem("nuklear", std::make_unique<NuklearSubsystem>(
+    const auto nk = addSystem("nuklear", std::make_unique<NuklearSystem>(
         mGame,
         mGame->mainWindow()->window,
         input_manager->virtualKeyboard(),
